@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="main">
+        <div class="image"></div>
+      <form action="" class="container">
+        <div class="sub-container">
+          <div class="heading"><h1>Registration Form</h1></div>
+          <div class="box">
+            <input
+              type="text"
+              name="uname"
+              id="uname"
+              class="field"
+              placeholder="Username"
+            />
+            <span id="umsg" class="error"></span>
+          </div>
+          <div class="box">
+            <input
+              type="password"
+              name="pass"
+              id="pass"
+              class="field"
+              placeholder="Password"
+            />
+            <span id="pmsg" class="error"></span>
+          </div>
+          <div class="box">
+            <input
+              type="password"
+              name="cpass"
+              id="cpass"
+              class="field"
+              placeholder="Confirm Password"
+            />
+            <span id="cmsg" class="error"></span>
+          </div>
+          <div class="box">
+            <input
+              type="text"
+              name="mobile"
+              id="mobile"
+              class="field"
+              placeholder="Mobile no"
+            />
+            <span id="mno" class="error"></span>
+          </div>
+          <div class="box">
+            <input
+              type="text"
+              name="email"
+              class="field"
+              id="email"
+              placeholder="Email"
+            />
+            <span id="emsg" class="error"></span>
+          </div>
+          <div class="box gender">
+            Gender: <input type="radio" name="gender" id="d1"/>male
+            <input type="radio" name="gender"  id="d2"/>Female <br><span id="gmsg" class="error"></span>
+          </div>
+          <div class="box gender">
+            <input type="checkbox" name="check" id="c" />Please check term and
+            conditions <br><span id="check-msg" class="error"></span>
+          </div>
+
+          <div class="button">
+            <button type="submit" onclick="return fun()">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
